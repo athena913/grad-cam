@@ -60,12 +60,6 @@ def getTopkPreds(logits, k=5):
    print(preds, labels)
    return preds, labels
 
-def compCam(dl):
-    
-    sample = next(iter(dl))
-    cam.computeCAM(sample)
-
-    return    
  
 def computeGCam(dnn_model, target_layers,  dl, out_path, top_k=5):
     """ 
