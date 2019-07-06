@@ -3,17 +3,19 @@ The code is an implementation of Gradient-weighted class activation mapping. Con
 
 Dependencies: 
 
-Python2 or Python3
+   Python2 or Python3
 
-Pytorch 1.0
+   Pytorch 1.0
 
-opencv
+   opencv
 
-matplotlib
+   matplotlib
+   
+Command line: python main_gcam.py
 
 The code saves the grad-cam output in the specified folder. 
 In main_gcam.py, set the input and output path in config according to your data and output folders. 
-Command line: python main_gcam.py
+
 
 
 References:
