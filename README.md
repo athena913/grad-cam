@@ -20,7 +20,9 @@ In main_gcam.py, set the input and output path in config according to your data 
 
 References:
 1) Paper: Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization.Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra.https://arxiv.org/abs/1610.02391
-2) Other implementations and tutorials:
+
+2) Other useful implementations and tutorials:
+
    https://github.com/kazuto1011/grad-cam-pytorch
    
    https://medium.com/@stepanulyanin/grad-cam-for-resnet152-network-784a1d65f3
